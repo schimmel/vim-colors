@@ -1,0 +1,21 @@
+snippet log "console.log()"
+console.log($0);
+endsnippet
+
+snippet logs "console.log('')"
+console.log('$0');
+endsnippet
+
+snippet each "jquery each"
+$(${1:this}).each(function(i, ${2:object}) {
+    $0;
+});
+endsnippet
+
+snippet each "underscore each"
+_.each(${1:obj}, function(${2:item}${3:, ${4:key}}) {
+    $0;
+});
+endsnippet
+
+
